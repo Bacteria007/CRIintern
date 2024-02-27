@@ -56,15 +56,12 @@ const Home = () => {
       {/* details */}
       <section className="details-container">
         <p className="simple-text">
-          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
-          RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
-          POWER FOR THE NATION.
+          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
         </p>
         <div className="center-container">
           <img src={Collection} alt="collection of PUMPSETS" className="img" />
           <p className="bold-text">
-            Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
-            Solar Systems - Motors
+            Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors
           </p>
         </div>
       </section>
