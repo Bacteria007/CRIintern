@@ -8,15 +8,15 @@ const Footer = () => {
        <footer>
         <div className="row">
             <IoLogoWhatsapp size={iconsize} color={iconcolor}/>
-            <a href='#'>Toll free 1800 200 1234</a>
+            <a href='www.crigroups.com'>Toll free 1800 200 1234</a>
         </div>
         <div className="row">
             <FaFacebook  size={iconsize} color={iconcolor}/>
-            <a href='#'>www.facebook/crigroups.com</a>
+            <a href='www.facebook/crigroups.com'>www.facebook/crigroups.com</a>
         </div>
         <div className="row">
             <FaGlobe  size={iconsize} color={iconcolor}/>
-            <a href='#'>www.crigroups.com</a>
+            <a href='www.crigroups.com'>www.crigroups.com</a>
         </div>
        </footer>
   )
