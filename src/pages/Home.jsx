@@ -24,14 +24,14 @@ const Home = () => {
             </p>
             <ul>
               <li>
-                <p className="simple-text">
+                <p className="simple-text subhead-size">
                   C.R.I.'s energy efficient products are well recognized by
                   various Government Institutions, as trustworthy products for
                   various projects across the globe to save energy.
                 </p>
               </li>
               <li>
-                <p className="simple-text">
+                <p className="simple-text subhead-size">
                   C.R.I. is the highest contributor in the country for the
                   projects of EESL (Energy Efficiency Services Limited) to
                   replace the old inefficient pumps with 5 Star rated energy
@@ -56,12 +56,15 @@ const Home = () => {
       {/* details */}
       <section className="details-container">
         <p className="simple-text">
-          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
+          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
+          RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
+          POWER FOR THE NATION.
         </p>
         <div className="center-container">
           <img src={Collection} alt="collection of PUMPSETS" className="img" />
           <p className="bold-text">
-            Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors
+            Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
+            Solar Systems - Motors
           </p>
         </div>
       </section>
