@@ -40,7 +40,7 @@
 
 .details-container {
     margin-top: 2rem;
-    padding: 0 2rem;
+    padding: 0 5vw;
 }
 
 .center-container {
@@ -48,6 +48,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .center-container img {
