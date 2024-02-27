@@ -1,0 +1,39 @@
+footer {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 40px;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Media Query for small screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        background-color: red;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px 0px;
+    }
+
+    .row {
+        flex-direction: row;
+        padding: 3% 0;
+    }
+
+    .row a {
+        margin: 0 10px;
+    }
+}
