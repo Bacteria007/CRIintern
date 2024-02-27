@@ -75,6 +75,13 @@
     display: inline-block;
 }
 
+.heading-size{
+    font-size: medium;
+}
+.subhead-size{
+    font-size: small;
+}
+
 @media screen and (max-width: 768px) {
     .parent-div {
         flex-direction: column;
