@@ -81,9 +81,12 @@
         align-items: center;
     }
 
-    .right-div,
-    .left-div {
+    .right-div{
         width: 100%;
+    }
+    
+    .left-div {
+        width: 60%;
     }
 
     .center-container img {
@@ -94,6 +97,10 @@
     .logo {
         width: 80%;
         max-width: none;
+    }
+    .details-container {
+        margin-top: 1rem;
+        padding: 0 5vw;
     }
 }
 
